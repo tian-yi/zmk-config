@@ -13,11 +13,11 @@
 // | CTRL/ESC|  A  |  S  |  D  |  F  |  G  |                    |  H  |  J   |  K  |  L  |  ;  |  ' /RCTRL |
 // |   SHFT  |  Z  |  X  |  C  |  V  |  B  |  MUTE  |  |        |  N  |  M   |  ,  |  .  |  /  |  ESC |
 //                      | GUI | LWR | SPC |                    | ENT | RSE  | ALT |
-                        bindings = <
+                       bindings = <
    &lt LWR TAB &kp Q &kp W &kp E &kp R &kp T                   &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
    &mt MOD_LCTRL ESC &kp A &kp S &kp D &kp F &kp G                   &kp H &kp J  &kp K     &kp L   &kp SEMI &mt MOD_RCTL SQT
    &kp LSHFT &kp Z &kp X &kp C &kp V &kp B &kp C_MUTE  &none &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp ESC
-                  &kp LGUI &mo 1 &kp SPACE                   &kp RET &mo 2 &kp LALT
+                  &mt MOD_LGUI RET &kp LALT &lt MO_2 SPACE             &lt MO_2 BSPC &kp LALT &mt MOD_LGUI RET
                         >;
 
                         sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
