@@ -30,7 +30,7 @@
 &kp V       &kp W         &kp G        &kp M           &kp J       &kp MINUS      &kp PERIOD       &kp EQUAL    &kp SQT         &kp SLASH
 &mt LGUI S  &mt LSHIFT N  &mt LCTRL T  &mt LEFT_ALT F  &kp K       &kp COMMA      &mt RIGHT_ALT A  &mt LCTRL E  &mt RS(LALT) I  &mt LGUI C
 &kp P       &kp F         &kp D        &kp L           &kp X       &kp SEMICOLON  &kp U            &kp O        &kp Y           &kp B
-&kp N1      &lt 3 DEL     &lt 1 SPACE  &kp R           &kp CLCK    &kp BACKSPACE  &kp SPACE        &kp BSPC     &lt 2 RET       &kp N4
+&kp N1      &lt 3 DEL     &kp R        &lt 1 SPACE         &kp CLCK    &kp BACKSPACE  &kp SPACE        &kp BSPC     &lt 2 RET       &kp N4c
             >;
 
             sensor-bindings = <
