@@ -41,7 +41,7 @@
  */
             bindings = <
 &kp V       &kp W         &kp G        &kp M           &kp J       &kp MINUS      &kp PERIOD       &kp EQUAL    &kp SQT         &kp SLASH
-&mt LGUI S  &mt LSHIFT N  &mt LCTRL T  &mt LEFT_ALT F  &kp K       &kp COMMA      &mt RIGHT_ALT A  &rpi LCTRL E  &mt RS(LALT) I  &mt LGUI C
+&rpi LGUI S  &rpi LSHIFT N  &rpi LCTRL T  &rpi LEFT_ALT F  &kp K       &kp COMMA      &rpi RIGHT_ALT A  &rpi LCTRL E  &rpi RS(LALT) I  &rpi LGUI C
 &kp P       &kp F         &kp D        &kp L           &kp X       &kp SEMICOLON  &kp U            &kp O        &kp Y           &kp B
 &kp N1              &lt 1 SPACE  &kp R  &kp TAB         &kp CLCK    &kp BACKSPACE  &lt 2 RET        &kp SPACE &kp BSPC            &kp N4
             >;
