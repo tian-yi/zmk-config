@@ -29,11 +29,11 @@
 /* QWERTY
  *
  * ,----------------------------------.                      ,----------------------------------.
- * |   Q  |   W  |   E  |   R  |   T  |                      |   Y  |   U  |   I  |   O  |   P  |
+ * |   V  |   W  |   G  |   M  |   J  |                      |   -  |   .  |   =  |   O  |   P  |
  * |------+------+------+------+------|                      |------+------+------+------+------|
- * |   A  |   S  |   D  |   F  |   G  |                      |   H  |   J  |   K  |   L  |   ;  |
+ * |   S  |   N  |   T  |   H  |   K  |                      |   H  |   J  |   K  |   L  |   ;  |
  * |------+------+------+------+------|  ,-----.    ,-----.  |------+------+------+------+------|
- * |   Z  |   X  |   C  |   V  |   B  |  |  2  |    |  3  |  |   N  |   M  |   ,  |   .  |   /  |
+ * |   P  |   F  |   D  |   L  |   X  |  |  2  |    |  3  |  |   N  |   M  |   ,  |   .  |   /  |
  * `----------------------------------'  `-----'    `-----'  `----------------------------------'
  *          ,-----.   ,--------------------.            ,--------------------.   ,-----.
  *          |  1  |   | DEL | SPACE | TAB  |            |  ESC  | BS | ENTER |   |  4  |
@@ -41,7 +41,7 @@
  */
             bindings = <
 &kp V       &kp W         &kp G        &kp M           &kp J       &kp MINUS      &kp PERIOD       &kp EQUAL    &kp SQT         &kp SLASH
-&rpi LGUI S  &rpi LSHIFT N  &rpi LCTRL T  &rpi LEFT_ALT F  &kp K       &kp COMMA      &rpi RIGHT_ALT A  &rpi LCTRL E  &rpi RS(LALT) I  &rpi LGUI C
+&rpi LGUI S  &rpi LSHIFT N  &rpi LCTRL T  &rpi LEFT_ALT H  &kp K       &kp COMMA      &rpi RIGHT_ALT A  &rpi LCTRL E  &rpi RSHIFT I  &rpi LGUI C
 &kp P       &kp F         &kp D        &kp L           &kp X       &kp SEMICOLON  &kp U            &kp O        &kp Y           &kp B
 &kp N1              &lt 1 SPACE  &kp R  &kp TAB         &kp CLCK    &kp BACKSPACE  &lt 2 RET        &kp SPACE &kp BSPC            &kp N4
             >;
